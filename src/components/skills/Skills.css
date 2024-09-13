@@ -1,0 +1,13 @@
+.img-fluid {
+  width: 100px;
+  height: 100px;
+  mix-blend-mode: darken;
+  cursor: pointer;
+}
+.img-parent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/*  */
