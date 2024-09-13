@@ -9,12 +9,8 @@
   height: 100vh;
 }
 
-.text-section {
-  flex: 1;
-}
-
 .text-section h1 {
-  font-size: 50px;
+  font-size: 55px;
   color: #0c8599;
   margin-bottom: 10px;
 }

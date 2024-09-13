@@ -14,7 +14,7 @@ const Home = () => {
             <div className="container">
                 <div className="text-section">
                     <p className="sub-head">Hi, my name is</p>
-                    <h1>VINAY KUMAR CHAUHAN</h1>
+                    <h1 className="">VINAY KUMAR CHAUHAN</h1>
                     <p className="sub-head">A Full Stack Developer with a passion for learning and creating.</p>
                     <div className="social-icons">
                         <Link to="https://www.facebook.com/vk.chauhan.315" target="blank"><i className="fa fa-facebook" /></Link>
