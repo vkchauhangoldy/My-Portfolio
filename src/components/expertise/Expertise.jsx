@@ -13,7 +13,7 @@ const Expertise = () => {
     return (
         <div className="p-3 pt-0">
             <h1 className="text-center txt-primary mb-5">Expertise</h1>
-            <div className="d-flex flex-wrap justify-content-center gap-5 cursor-pointer">
+            <div className="d-flex flex-wrap justify-content-evenly cursor-pointer">
                 {
                     expertise.map((exp, index) => (
                         <div key={index} className="" style={{ width: "17rem" }}>
