@@ -16,7 +16,7 @@ const Expertise = () => {
             <div className="d-flex flex-wrap justify-content-center gap-5 cursor-pointer">
                 {
                     expertise.map((exp, index) => (
-                        <div key={index} className="" style={{ width: "18rem" }}>
+                        <div key={index} className="" style={{ width: "17rem" }}>
                             <img src={exp.img} className="card-img-top" alt="..." width={100} height={"200px"} />
                             <div className="card-body p-1">
                                 <h5 className="text-secondary text-center">{exp.name}</h5>
