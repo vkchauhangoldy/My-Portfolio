@@ -11,12 +11,12 @@ const Expertise = () => {
         { name: "App Development", img: app },
     ]
     return (
-        <div className="p-3 pt-0">
+        <div className="">
             <h1 className="text-center txt-primary mb-5">Expertise</h1>
             <div className="d-flex flex-wrap justify-content-evenly cursor-pointer">
                 {
                     expertise.map((exp, index) => (
-                        <div key={index} className="" style={{ width: "15rem" }}>
+                        <div key={index} className="imgexp" style={{ width: "18rem" }}>
                             <img src={exp.img} className="card-img-top" alt="..." width={100} height={"200px"} />
                             <div className="card-body p-1">
                                 <h5 className="text-secondary text-center">{exp.name}</h5>
