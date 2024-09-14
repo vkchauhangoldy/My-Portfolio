@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 30px;
-  max-width: 1200px;
+  max-width: 1300px;
 }
 
 .text-section h1 {
@@ -26,15 +26,10 @@
   font-size: 20px;
 }
 .download-btn:hover {
-  /* padding: 8px 16px; */
-  /* background-color: #0c8599; */
   cursor: pointer;
   background-color: #ff3f6c;
   color: #fff;
   transition: 0.3s;
-  /* text-decoration: none;
-  border-radius: 5px;
-  font-size: 20px; */
 }
 
 .image-section {
