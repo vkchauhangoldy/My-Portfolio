@@ -71,12 +71,12 @@ const Projects = () => {
     return (
         <div className="page">
             <h1 className="text-center txt-primary p-3">My Projects</h1>
-            <div className="d-flex flex-wrap justify-content-center gap-5 cursor-pointer">
+            <div className="d-flex flex-wrap justify-content-evenly cursor-pointer">
                 {projectsArr.map((project, index) => (
                     <Link
                         to={project.url}
                         key={index}
-                        className=""
+                        className="mb-3"
                         style={{ width: "18rem" }}
                         target="_blank"
                     >
