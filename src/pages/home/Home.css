@@ -2,11 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 20px; */
+  padding-top: 50px;
   max-width: 1200px;
-  /* margin: auto; */
+  margin: auto;
   margin-top: -50px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .text-section h1 {

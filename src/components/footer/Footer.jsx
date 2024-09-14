@@ -19,12 +19,7 @@ const Footer = () => {
                 </svg>
                 <div className="footer-content">
                     <div className="footer-content-column">
-                        {/* <div className="footer-logo">
-                            <a className="footer-logo-link" href="#">
-                                <span className="hidden-link-text">LOGO</span>
-                                <h1>LOGO</h1>
-                            </a>
-                        </div> */}
+
                         <div className="footer-menu">
                             <h2 className="footer-menu-name"> Contact Here</h2>
                             <ul id="menu-get-started" className="footer-menu-list">
@@ -66,12 +61,12 @@ const Footer = () => {
                             <h2 className="footer-menu-name"> Quick Links</h2>
                             <ul id="menu-quick-links" className="footer-menu-list">
                                 <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                                    <a target="_blank" rel="noopener noreferrer" href="/">
+                                    <a rel="noopener noreferrer" href="/">
                                         Home
                                     </a>
                                 </li>
                                 <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                                    <a target="_blank" rel="noopener noreferrer" href="/about">
+                                    <a rel="noopener noreferrer" href="/about">
                                         About
                                     </a>
                                 </li>

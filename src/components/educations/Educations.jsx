@@ -2,7 +2,7 @@
 const Educations = () => {
     return (
         <div className="p-3">
-            <h1 className="text-center txt-primary ">Technical Educations</h1>
+            <h1 className="text-center txt-primary mt-4">Technical Educations</h1>
             <div className=" row gap-5 justify-content-center p-5">
                 <div className="shadow-sm col-lg-5 col-md-5 col-sm-12 p-3" >
                     <div className="card-body">
